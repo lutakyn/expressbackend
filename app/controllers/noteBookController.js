@@ -11,6 +11,7 @@ exports.getNote = (req, res) => {
     });
 };
 
+
 exports.getAllNotes = (req, res) => {
     note.find({}, (err, notes) => {
         if (err) {
